@@ -1,0 +1,58 @@
+.mainDiv {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  box-sizing: border-box;
+}
+
+.leftDiv {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginFormDiv {
+  height: 50%;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.formHeading
+{
+  color: #211951;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.formGroup
+{
+  height: 3rem;
+  width: 20rem;
+}
+
+.formLabel
+{
+  margin-right: 10px;
+}
+
+.rightDiv {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightDivImage {
+  height: 50%;
+  width: 70%;
+  margin-bottom: 10rem;
+}
