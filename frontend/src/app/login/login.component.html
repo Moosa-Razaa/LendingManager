@@ -1,27 +1,21 @@
-<main class="mainDiv">
-  <div class="leftDiv">
-    <div class="loginFormDiv">
-      <form (ngSubmit)="(OnSubmitLogin)">
-        <h3 class="formHeading">LOGIN</h3>
-        <div class="formGroup">
-          <label class="formLabel" for="username">Username:</label>
-          <input type="text" id="username" name="username" required />
-        </div>
+<main class="mainBody">
+  <div class="background">
+    <div class="shape"></div>
+    <div class="shape"></div>
+  </div>
+  <form>
+    <h3>Login Here</h3>
 
-        <div class="formGroup">
-          <label class="formLabel" for="password">Password:</label>
-          <input type="password" id="password" name="password" required />
-        </div>
+    <label for="username">Username</label>
+    <input type="text" placeholder="Email or Phone" id="username" />
 
-        <div class="forgotPassword">
-          <a href="#">Forgot Password?</a>
-        </div>
+    <label for="password">Password</label>
+    <input type="password" placeholder="Password" id="password" />
 
-        <button type="submit">Login</button>
-      </form>
+    <button>Log In</button>
+    <div class="social">
+      <div class="go"><i class="fab fa-google"></i> Google</div>
+      <div class="fb"><i class="fab fa-facebook"></i> Facebook</div>
     </div>
-  </div>
-  <div class="rightDiv">
-    <img class="rightDivImage" src="../../assets/homepage.jpg" />
-  </div>
+  </form>
 </main>
