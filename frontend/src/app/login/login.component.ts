@@ -11,8 +11,9 @@ export class LoginComponent {
   username: string = '';
   password: string = '';
 
-  OnSubmitLogin() 
+  OnSubmitLogin(event: any) 
   {
+    event.preventDefault();
     console.log(`Username: ${this.username}, Password: ${this.password}`);
   }
 }
