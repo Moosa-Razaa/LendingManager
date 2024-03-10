@@ -8,12 +8,12 @@
 
     <div class="input-item">
       <label for="username">Username</label>
-      <input [value]="username" type="text" placeholder="Email or Phone" id="username" />
+      <input (input)="OnUsernameChange($event)" type="text" placeholder="Email or Phone" id="username" />
     </div>
 
     <div class="input-item">
       <label for="password">Password</label>
-      <input [value]="password" type="password" placeholder="Password" id="password" />
+      <input (input)="OnPasswordChange($event)" type="password" placeholder="Password" id="password" />
     </div>
 
     <div class="container">
