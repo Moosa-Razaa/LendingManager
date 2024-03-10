@@ -3,7 +3,7 @@
     <div class="shape"></div>
     <div class="shape"></div>
   </div>
-  <form (submit)="OnSubmitLogin">
+  <form>
     <h3>Login Here</h3>
 
     <div class="input-item">
@@ -18,7 +18,7 @@
 
     <div class="container">
 
-      <button href="#" type="submit" class="button type--A">
+      <button (click)="OnSubmitLogin($event)" class="button type--A">
         <div class="button__line"></div>
         <div class="button__line"></div>
         <span class="button__text">Login</span>
