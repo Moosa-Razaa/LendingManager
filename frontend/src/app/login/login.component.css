@@ -119,6 +119,7 @@ form h3 {
   width: 240px;
   height: 56px;
   text-decoration: none;
+  background-color: transparent;
   font-size: 14px;
   font-weight: bold;
   color: var(--line_color);

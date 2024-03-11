@@ -8,31 +8,31 @@
 
     <div class="input-item">
       <label for="username">Username</label>
-      <input type="text" placeholder="Email or Phone" id="username" />
+      <input (input)="OnUsernameChange($event)" type="text" placeholder="Email or Phone" id="username" />
     </div>
 
     <div class="input-item">
       <label for="password">Password</label>
-      <input type="password" placeholder="Password" id="password" />
+      <input (input)="OnPasswordChange($event)" type="password" placeholder="Password" id="password" />
     </div>
 
     <div class="container">
 
-      <a href="#" class="button type--A">
+      <button (click)="OnSubmitLogin($event)" class="button type--A">
         <div class="button__line"></div>
         <div class="button__line"></div>
         <span class="button__text">Login</span>
         <div class="button__drow1"></div>
         <div class="button__drow2"></div>
-      </a>
+      </button>
 
-      <a href="#" class="button type--B">
+      <button href="#" class="button type--B">
         <div class="button__line"></div>
         <div class="button__line"></div>
         <span class="button__text">Create New Account</span>
         <div class="button__drow1"></div>
         <div class="button__drow2"></div>
-      </a>
+      </button>
     </div>
   </form>
 </main>
